@@ -1,0 +1,14 @@
+#In computing, the collection of four bits is called a nibble. Chef defines a program as:
+Good, if it takes exactly X nibbles of memory, where X is a positive integer. Not Good, otherwise.
+Given a program which takes N bits of memory, determine whether it is Good or Not Good.
+
+
+
+
+t=int(input())
+for i in range(t):
+    N=int(input())
+    if(N%4==0):
+        print("GOOD")
+    else:
+        print("NOT GOOD")
