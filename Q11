@@ -1,0 +1,21 @@
+#There is a bus with 30 seats. The seats are numbered from 1 to 30,  the bus is divided into two decks - The Lower deck, and the Upper deck, with 15 seats each
+You will be given a Seat number, and your job is to classify it as one of these 4 types: Lower Single, Lower Double, Upper Single, Upper Double.
+
+
+
+
+t=int(input())
+for i in range(t):
+    N=int(input())
+    if 1<=N and N<=10:
+        print("Lower Double")
+    elif N>=11 and N<=15:
+        print("Lower Single")
+    elif N>=16 and N<=25:
+        print("Upper Double")
+    else:
+        print("Upper Single")
+
+
+
+
